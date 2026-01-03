@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/izyumkin/MCEmojiPicker'
   s.authors = { 'Ivan Izyumkin' => 'izzyumkin@gmail.com' }
   
-  s.source = { :git => 'https://github.com/izyumkin/MCEmojiPicker.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/almancio/MCEmojiPicker.git', :branch => 'main' }
   s.source_files = 'Sources/MCEmojiPicker/**/*.swift'
   s.resource_bundle = { "MCEmojiPicker" => ["Sources/MCEmojiPicker/**/*.lproj/*.strings"] }
   s.swift_version = '4.2'
